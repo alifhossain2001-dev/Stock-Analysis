@@ -1,0 +1,56 @@
+
+
+*{
+	font-family: verdana;
+	font-size: 10pt;
+}
+
+h1 {
+	font-size: 120%;
+}
+
+div.body {
+	width: 15in;
+	margin: .35in;	
+	padding: 6px;
+}
+
+div.stock {
+
+	display: inline-block;
+	width: 2in;
+	padding: 5px;
+	margin-bottom: 2px;	
+	
+}
+
+#developer {
+	margin-left: 6px;
+	display: inline-block;
+	border: solid 1px red;	
+	padding: 10px;
+	width: 2.5in;
+	text-align: right;	
+}
+
+
+div span.p1, div span.p2{
+	padding: 4px;
+}
+
+div span.p1 {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	width: 35%;
+	border: 1px solid black;
+	font-weight: bolder;
+}
+
+div span.p2 {
+	display: inline-block;
+	width:53%;
+	text-align: right;
+	border: 1px solid black;
+	padding-right: 3px;
+}

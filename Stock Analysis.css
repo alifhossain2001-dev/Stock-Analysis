@@ -1,0 +1,13 @@
+span.money.p2.expensive{
+background-color: green;
+color:white;
+}
+span.money.p2.cheap{
+    background-color: red;
+    color: white;
+}
+span.money.p2:not(.cheap):not(.expensive){
+    background-color: rgb(200,150,255);
+    color: white;
+
+}
